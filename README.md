@@ -1,0 +1,2 @@
+# strajk
+strajk
