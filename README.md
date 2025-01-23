@@ -11,5 +11,6 @@ iskopirati js, css negde u vaš kod i html fajl u body vašeg sajta
 
 
 prikaz na cityexpert.rs:
-![image](https://github.com/user-attachments/assets/5a850957-5c84-48eb-9308-892af967b433)
+![image](https://github.com/user-attachments/assets/d23f364b-a32b-4883-ae65-feb03a728006)
+
 
