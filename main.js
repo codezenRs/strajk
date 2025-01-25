@@ -10,13 +10,11 @@ div.style.display = 'none';
 div.innerHTML = html.default;
 document.body.appendChild(div);
 
+let strajkBlock = document.querySelector('.strajkblock');
+let strajkCounter = document.body.querySelector('.strajkcounter');
 
 setInterval(() => {
   let now = new Date();
-
-
-  let strajkBlock = document.querySelector('.strajkblock');
-  let strajkCounter = document.body.querySelector('.strajkcounter');
 
   if (strajkBlock == null || strajkCounter == null) {
     return;
