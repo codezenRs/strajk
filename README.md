@@ -25,7 +25,7 @@ Iskopirati JS i CSS bilo gde u vaš kod i HTML fajl u body element vašeg sajta.
 
 
 
-prikaz na cityexpert.rs:
+izgled:
 ![image](https://github.com/user-attachments/assets/d23f364b-a32b-4883-ae65-feb03a728006)
 
 
