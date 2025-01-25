@@ -10,7 +10,7 @@ iskopirati js i css negde u vaš kod i html fajl u body vašeg sajta
 
 
 
-#changelog
+# changelog
 2.0 - Skripta sada blokira svaki dan od 11:52 do 12:07 (v1 je bio samo za strajk 24.1.2025)
 
 
