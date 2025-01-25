@@ -1,5 +1,5 @@
  setInterval(() => {
-        var now = Date.now();
+        let now = new Date();
 
         let strajkBlock = document.querySelector('.strajkblock');
         let strajkCounter = document.body.querySelector('.strajkcounter');
@@ -8,10 +8,14 @@
           return;
         }
 
-        if (now > 1737715920000 && now < 1737716820000) {
+
+        let dFrom = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 11, 52 ) ;
+        let dTo = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 7 ) ;
+
+        if (now > dFrom && now < dTo) {
           document.body.classList.add('strajk');
           strajkBlock.classList.add('visible');
-          let rem = (1737716820000 - now) / 1000;
+          let rem = (dTo.getTime() - now.getTime()) / 1000;
           let min = Math.floor(rem / 60);
           let sec = Math.floor(rem - min * 60);
           strajkCounter.textContent = min.toString() + ':' + sec.toString().padStart(2, '0');

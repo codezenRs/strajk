@@ -1,12 +1,17 @@
-# Strajk podrske studentima 1.0
+# Strajk podrske studentima 2.0
 
-strajk je skripta za lako prikljucivanje strajku websajtova 24.1.2025.
-skripta će izmedju 24.1.2025 11:52 i 12:07 zatamniti sadrzinu sajta, blokirati input i prikazati crvenu ruku sa timerom
+strajk je skripta za lako prikljucivanje strajku websajtova povodom podrške studentima.
+skripta svaki dan izmedju 11:52 i 12:07 zatamni sadrzinu sajta, blokira input i prikazati crvenu ruku sa timerom.
 
 
 
 # instalacija
-iskopirati js, css negde u vaš kod i html fajl u body vašeg sajta
+iskopirati js i css negde u vaš kod i html fajl u body vašeg sajta
+
+
+
+#changelog
+2.0 - Skripta sada blokira svaki dan od 11:52 do 12:07 (v1 je bio samo za strajk 24.1.2025)
 
 
 
