@@ -1,7 +1,14 @@
 import * as css from "./style.css" assert { type: "css" };
+import * as html from "./html.html" assert { type: "html" };
 
 document.adoptedStyleSheets = [css.default];
 
+let div = document.createElement('div');
+div.classList.add('strajkblock');
+div.title = 'Podrška studentima!';
+div.style.display = 'none';
+div.innerHTML = html.default;
+document.body.appendChild(div);
 
 
 setInterval(() => {

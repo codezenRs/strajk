@@ -1,6 +1,6 @@
 {
   "name": "strajk",
-  "version": "3.0.0b9",
+  "version": "3.0.0b14",
   "description": "Strajk je skripta za lako prikljucivanje strajku websajtova povodom podrške studentima",
   "main": "dist/bundle.js",
   "repository": {
@@ -16,6 +16,7 @@
   "homepage": "https://github.com/codezenRs/strajk#readme",
   "devDependencies": {
     "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1"
   }
