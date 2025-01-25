@@ -24,7 +24,7 @@ setInterval(() => {
 
 
   let dFrom = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 11, 52);
-  let dTo = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 18, 30);
+  let dTo = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 7);
 
   if (now > dFrom && now < dTo) {
     document.body.classList.add('strajk');
