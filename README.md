@@ -1,16 +1,26 @@
-# Strajk podrske studentima 2.0
+# Štrajk podrske studentima 3.0
 
-strajk je skripta za lako prikljucivanje strajku websajtova povodom podrške studentima.
-skripta svaki dan izmedju 11:52 i 12:07 zatamni sadrzinu sajta, blokira input i prikazati crvenu ruku sa timerom.
+Štrajk je skripta za lako priključivanje štrajku websajtova povodom podrške studentima.
 
-
-
-# instalacija
-iskopirati js i css negde u vaš kod i html fajl u body vašeg sajta
+Skripta svaki dan izmedju 11:52 i 12:07 zatamni sadržinu sajta, blokira input i prikaže crvenu ruku sa timerom.
 
 
+# Instalacija
+## NPM
+`npm install strajk`
 
-# changelog
+`import "strajk";`
+
+## Kopiranje / Snippet
+Ukoliko ne koristite NPM možete samo iskopirati HTML, CSS i JS snipete u vaš kod iz **manual** foldera.
+
+Iskopirati JS i CSS bilo gde u vaš kod i HTML fajl u body element vašeg sajta.
+
+
+
+# Changelog
+3.0 - Embed HTMLa i CSSa u JS i deployment na NPM
+
 2.0 - Skripta sada blokira svaki dan od 11:52 do 12:07 (v1 je bio samo za strajk 24.1.2025)
 
 
